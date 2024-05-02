@@ -27,7 +27,8 @@ Here is an overview of all data service providers and the compute locations avai
 | Tigris                           | ✅            | ✅                        | ❌   |
 | Turso                            | ✅            | ✅                        | ❌   |
 | Upstash (SDK)                    | ✅            | ✅                        | ❌   |
-| Xata (TypeScript SDK)            | ✅            | ✅                        | ❌   |
+| Xata w/ TypeScript SDK           | ✅            | ✅                        | ✅   |
+| Xata w/ Prisma ORM               | ❌            | ❌                        | ✅   |
 
 ## Testing Methodology
 
