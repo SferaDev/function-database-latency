@@ -7,7 +7,7 @@ import GithubCorner from "@/components/github-corner";
 
 const ATTEMPTS = 10;
 const NODE_AVAILABLE = ["planetscale-drizzle", "planetscale-prisma", "convex", "xata-sdk"];
-const NODE_ONLY = ["supabase-drizzle", "supabase-prisma", "xata-prisma"];
+const NODE_ONLY = ["supabase-drizzle", "supabase-prisma", "xata-drizzle", "xata-prisma"];
 
 type Region = "regional" | "global" | "node";
 
@@ -183,6 +183,9 @@ export default function Page() {
               </SelectItem>
               <SelectItem data-testid="xata-sdk" value="xata-sdk" icon={XataIcon}>
                 Xata (SDK)
+              </SelectItem>
+              <SelectItem data-testid="xata-drizzle" value="xata-drizzle" icon={XataIcon}>
+                Xata (w/ Drizzle)
               </SelectItem>
               <SelectItem data-testid="xata-prisma" value="xata-prisma" icon={XataIcon}>
                 Xata (w/ Prisma ORM)

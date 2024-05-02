@@ -29,6 +29,7 @@ Here is an overview of all data service providers and the compute locations avai
 | Upstash (SDK)                    | ✅            | ✅                        | ❌   |
 | Xata w/ TypeScript SDK           | ✅            | ✅                        | ✅   |
 | Xata w/ Prisma ORM               | ❌            | ❌                        | ✅   |
+| Xata w/ Drizzle                  | ❌            | ❌                        | ✅   |
 
 ## Testing Methodology
 
